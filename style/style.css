@@ -16,7 +16,8 @@ body{
     min-height: 100vh;
     background: #f7f7f7;
 }
-/* wrapper recebe a estilização do espaço central de cadastro e muito mais ou seja é aqui nesta divi que conseguimos centralizar o nosso formulario. */
+/* wrapper recebe a estilização do espaço central de cadastro e muito mais ou 
+seja é aqui nesta divi que conseguimos centralizar o nosso formulario. */
 .wrapper{
     background: #fff;
     width: 450px;
@@ -24,7 +25,7 @@ body{
     box-shadow: 0 0 128px 0 rba(0,0,0,0.1),
                 0 32px 64px -48px rgba(0, 0, 0, 0.5);
 }
-/*codigo css do formulario de incrição ----------------------------------- */
+/*codigo css do formulario de incrição  */
 .form{
     padding: 25px 30px;
 }
