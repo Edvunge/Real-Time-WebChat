@@ -1,4 +1,6 @@
+/* começamos por importar uma fonte do google fontes, tipos de letra para estilização.  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* aqui temos ajustes iniciais da pagina de css alinhamentos e anulação de qualquer espaçamento já existente na pagina. */
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+/* aqui no nosso body temos centralização do corpo, e definição de uma cor de fundo. */
 body{
     display: flex;
     align-items: center;
@@ -13,6 +16,7 @@ body{
     min-height: 100vh;
     background: #f7f7f7;
 }
+/* wrapper recebe a estilização do espaço central de cadastro e muito mais ou seja é aqui nesta divi que conseguimos centralizar o nosso formulario. */
 .wrapper{
     background: #fff;
     width: 450px;
@@ -20,12 +24,11 @@ body{
     box-shadow: 0 0 128px 0 rba(0,0,0,0.1),
                 0 32px 64px -48px rgba(0, 0, 0, 0.5);
 }
-
-
 /*codigo css do formulario de incrição ----------------------------------- */
 .form{
     padding: 25px 30px;
 }
+/* cabeçalho do formulario. */
 .form header{
     font-size: 25px;
     font-weight: 600;
@@ -35,6 +38,7 @@ body{
 .form form{
     margin: 20px 0;
 }
+/* formatação da classe erro-txt */
 .form form .erro-txt{
     color: #721c24;
     background: #f8d7da;
@@ -87,6 +91,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+/* formatação do campo field. */
 .form form .field i{
     position: absolute;
     right: 15px;
@@ -95,6 +100,7 @@ body{
     transform: translateY(-50%);
     cursor: pointer;
 }
+/* formatação do link */
 .form .link{
     text-align: center;
     margin: 10px 0;
