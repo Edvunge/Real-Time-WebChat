@@ -211,11 +211,10 @@ seja é aqui nesta divi que conseguimos centralizar o nosso formulario. */
     font-size: 12px;
     color: #468669;
 }
-/* we'll use this class name in php to show offline status */
+/* vamos usar este nome de classe em php para mostrar o status offline */
 .users-list a .status-dot.offline{
     color: #ccc;
 }
-/* Creating Chat Area Page (HTML) */
 .chat-area header{
     display: flex;
     align-items: center;
