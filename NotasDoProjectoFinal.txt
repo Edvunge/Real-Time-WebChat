@@ -1,10 +1,5 @@
 projecto final do curso Back-End Especializado um curso Organizado pela FLAG
 
-
-
-
-
-
 crição de Web-Aplicativo de bate-papo usando PHP com MySQL e JavaScript
 
 Vou criar um aplicativo de bate-papo completo usando PHP com MySQL e JavaScript. 
@@ -17,8 +12,3 @@ o usuário pode selecionar qualquer outro usuário para começar a conversar com
 o usuário também pode facilmente sair do app clicando no botão de logout e, após o logout bem-sucedido, 
 ele será redirecionado para a página de login do app e seu status ficará offline para outros usuários inscritos. 
 o usuário tem que fazer login com seu e-mail de inscrição e senha para entrar na página da app novamente.
-
-         1
-
-         3
-

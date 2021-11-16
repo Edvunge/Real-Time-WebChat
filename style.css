@@ -110,7 +110,6 @@ body{
 .form .link a:hover{
   text-decoration: underline;
 }
-
 /* Users List CSS Start */
 .users{
   padding: 25px 30px;
@@ -234,7 +233,6 @@ body{
 .users-list a .status-dot.offline{
   color: #ccc;
 }
-
 /* Chat Area CSS Start */
 .chat-area header{
   display: flex;
@@ -342,7 +340,6 @@ body{
   opacity: 1;
   pointer-events: auto;
 }
-
 /* Responive media query */
 @media screen and (max-width: 450px) {
   .form, .users{
